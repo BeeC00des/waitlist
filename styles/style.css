@@ -137,8 +137,9 @@ input{
     width:200px;
 }
 
-p{
-    font-size: 14px;
+.content2 h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
 }
 }
 

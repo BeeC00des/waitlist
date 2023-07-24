@@ -19,11 +19,11 @@
             <div class="header-text">
                 <h1> Endless <br/> Possiblities</h1>
                 <p>Coming soon in Akure, Ondo State...</p>
-                <form action="">
+                <forma action="./notify.html">
                     <input type="text" placeholder="Enter Email Address" class="formField">
                     <span class="focus-border"></span>
                     <button type="submit" class="btn submitForm">
-                        <a href="./notify.html"> Join wait list</button>
+                         Join wait list
                 </form>
             </div>
         </div> 
@@ -67,7 +67,7 @@
     const submit = document.querySelector('.submitForm');
 
     submit.addEventListener("click",(e)=>{
-     e.preventDefault();
+    //  e.preventDefault();
 
      const contact = collection(db,'contact');
     const user= doc(contact,'Bolarinwa')
@@ -79,9 +79,7 @@
     //     const userDetail = {
     //         name:"Adekola Deimpe",
     //         email:emailAddress.value,
-    //     }
-
-        
+    //     } 
     //     // setDoc(user, userDetail);
     //     setDoc(user, userDetail)
     //     .then(()=>{ 

@@ -16,7 +16,7 @@
     text-align: center;
     width:50%;
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
  
@@ -121,11 +121,10 @@ input{
 .content{
     text-align: center;
     width:50%;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
- 
+    margin: 50px auto 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .content h1{

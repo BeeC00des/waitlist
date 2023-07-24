@@ -71,9 +71,9 @@
      
 
      const contact = collection(db,'contact');
-    const user= doc(contact,'Bolarinwa')
-    console.log(contact);
-    console.log(user);
+    // const user= doc(contact,'Bolarinwa')
+    // console.log(contact);
+    // console.log(user);
     // Add a new document in collection "cities"
 
     // function storeContact(){
@@ -100,13 +100,14 @@
     setDoc(userDetails2, {email: arrayUnion(emailAddress.value)}, { merge: true })
     .then(()=>{ 
             console.log("this is written to db")
-            emailAddress.value = "";
-            console.log('resest email input')
+            window.location.assign("./notify.html");
+            // emailAddress.value = "";
+            // console.log('resest email input')
         }).catch((error) =>{
             console.log(`i got an error ${error}`)
         })
 
-    window.location.assign("./notify.html");
+    // window.location.assign("./notify.html");
 
     console.log(userDetails2);
 

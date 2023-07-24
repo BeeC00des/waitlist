@@ -7,19 +7,18 @@
     background-position:100%;
     background-size:cover;
     background-repeat: no-repeat;
+    position: relative;
 }
 
-.logo{
 
-}
 
 .content{
     text-align: center;
     width:50%;
-    margin: 90px auto 200px;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
  
 }
 
@@ -38,6 +37,14 @@ a{
   display: flex;
   justify-content: center;    
   align-items: end;
+}
+
+.footerLogo{
+        position: fixed;
+        left: 50%;
+        bottom: 0px;
+        transform: translate(-50%, -50%);
+        /* margin: 0 auto; */
 }
 
 .content h1{

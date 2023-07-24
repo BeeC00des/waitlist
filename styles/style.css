@@ -9,18 +9,18 @@
     background-repeat: no-repeat;
 }
 
+.logo{
+
+}
+
 .content{
     text-align: center;
     width:50%;
-    margin: 70px auto 190px;
-    /* border:1px solid red; */
-    display: flex;
+    margin: 90px auto 220px;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
-    /* position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
+    align-items: center; */
+ 
 }
 
 a{
@@ -31,16 +31,19 @@ a{
 .logo{
   display: flex;
   justify-content: center;  
+  align-items: start;
 }
 
 .footerLogo{
-display: flex;
+  display: flex;
   justify-content: center;    
+  align-items: end;
 }
 
 .content h1{
     font-family: 'Montserrat', sans-serif;
-    font-size: 56px;
+    font-size: 60px;
+    line-height: 60px;
     font-weight: bold;
     color:#070054;
     margin: 0;
@@ -117,6 +120,7 @@ input{
 }
 
 .content h1{
+    line-height: 35px;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
 }

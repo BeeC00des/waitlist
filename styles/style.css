@@ -137,3 +137,18 @@ input{
     width:200px;
 }
 }
+
+
+@media (min-width:600px) and (max-width: 1024px) {
+    .background{
+        height: 980px;
+        width:100%;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .background{
+        height: 1088px;
+        width:100%;
+    }
+}

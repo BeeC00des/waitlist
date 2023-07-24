@@ -19,7 +19,7 @@
             <div class="header-text">
                 <h1> Endless <br/> Possiblities</h1>
                 <p>Coming soon in Akure, Ondo State...</p>
-                <forma action="./notify.html">
+                <forma action="./notify.html" method="POST">
                     <input type="text" placeholder="Enter Email Address" class="formField">
                     <span class="focus-border"></span>
                     <button type="submit" class="btn submitForm">
@@ -67,7 +67,8 @@
     const submit = document.querySelector('.submitForm');
 
     submit.addEventListener("click",(e)=>{
-    //  e.preventDefault();
+     e.preventDefault(); 
+     
 
      const contact = collection(db,'contact');
     const user= doc(contact,'Bolarinwa')
@@ -99,11 +100,13 @@
     setDoc(userDetails2, {email: arrayUnion(emailAddress.value)}, { merge: true })
     .then(()=>{ 
             console.log("this is written to db")
-            //emailAddress.reset();
+            emailAddress.value = "";
             console.log('resest email input')
         }).catch((error) =>{
             console.log(`i got an error ${error}`)
         })
+
+    window.location.assign("./notify.html");
 
     console.log(userDetails2);
 

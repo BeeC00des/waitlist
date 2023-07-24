@@ -121,11 +121,11 @@ input{
 .content{
     text-align: center;
     width:50%;
-    margin: 50px auto 120px;
-    /* border:1px solid red; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ 
 }
 
 .content h1{

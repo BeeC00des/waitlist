@@ -84,18 +84,13 @@ a{
 }
 
 .content2{
-    text-align: center;
+   
     width:50%;
-    margin: 100px auto 300px;
-    /* border:1px solid red; */
+    margin: 120px auto 300px;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    /* position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
 }
 
 .content2 h3{

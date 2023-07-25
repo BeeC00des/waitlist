@@ -26,8 +26,16 @@
                 </form>
             </div>
         </div> 
-        <div class="footerLogo">
-            <img src="./Assets/images/Ondo-Logo.png" alt="Ondo-state-logo">
+        <div class="footer">
+            <div class="footerLogo">
+                <div class="right">
+                    <img src="./Assets/images/Ondo-Logo.png" alt="Ondo-state-logo">
+                    <img src="./Assets/images/Ammut.png" alt="real-estate-logo">
+                </div>
+                <div class="left">
+                    <img src="./Assets/images/phone-nos.png" alt="contact">
+                </div>
+            </div>
         </div>
     </div>
 </body>
@@ -67,30 +75,6 @@
      
 
      const contact = collection(db,'contact');
-    // const user= doc(contact,'Bolarinwa')
-    // console.log(contact);
-    // console.log(user);
-    // Add a new document in collection "cities"
-
-    // function storeContact(){
-    //     const userDetail = {
-    //         name:"Adekola Deimpe",
-    //         email:emailAddress.value,
-    //     } 
-    //     // setDoc(user, userDetail);
-    //     setDoc(user, userDetail)
-    //     .then(()=>{ 
-    //         console.log("this is written to db")
-    //         // emailAddress.reset()
-    //         // console.log('resest email input')
-    //     }).catch((error) =>{
-    //         console.log(`i got an error ${error}`)
-    //     })
-
-    //     // updateDoc(user, userDetail);
-    // }
-
-    // storeContact();
 
     const userDetails2 = doc(db, 'contact', 'Ondo-state');
     setDoc(userDetails2, {email: arrayUnion(emailAddress.value)}, { merge: true })

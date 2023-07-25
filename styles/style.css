@@ -41,12 +41,37 @@ a{
   align-items: end;
 }
 
-.footerLogo{
+.footer{
+    height: 100px;
+    width:100%;
+    background-color: white;
+    /* display: flex;
+    align-items: end;
+    justify-content: center; */
+    /* margin:auto; */
     position: absolute;
     left: 50%;
-    bottom: 0px;
+    bottom: -65px;
     transform: translate(-50%, -50%);
-    
+}
+.footerLogo{
+    margin:30px  auto;
+    width:90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.right{
+    display: flex;
+    width:30%;
+    justify-content: space-between;
+}
+.left{
+    /* width: 30%;
+    border:1px solid red; */
+    display: flex;
+    justify-content: center;  
 }
 
 .content h1{
@@ -141,6 +166,13 @@ input{
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
 }
+
+.right{
+    display: flex;
+    width:50%;
+    justify-content: space-between;
+}
+
 }
 
 

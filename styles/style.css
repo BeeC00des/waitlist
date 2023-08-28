@@ -96,11 +96,19 @@ a{
 
 .content2{
     width:50%;
-    margin: 60px auto 300px;
+    text-align: center;
+    margin: 20px auto 300px;
     text-align: center;
 }
 
-.content2 h3{
+.content3{
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.content3 h3{
     font-family: 'Montserrat', sans-serif;
     font-size: 28px;
     font-weight: bold;

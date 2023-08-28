@@ -33,12 +33,3 @@ const contact = collection(db,'contact');
 const email= doc(db,'funke@gmail.com')
 
 console.log(contact, email)
-// const snapshot = await  getDocs(email)
-
-
-// Add a new document in collection "cities"
-// await setDoc(doc(db, "cities", "LA"), {
-//   name: "Los Angeles",
-//   state: "CA",
-//   country: "USA"
-// });

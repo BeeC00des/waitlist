@@ -19,7 +19,7 @@ body{
 }
 
 .background2{
-    height: 100vh;
+    height: 100vh !important;
     width:100%;
 }
 
@@ -103,7 +103,7 @@ a{
 
 .content3{
     width:50%;
-    margin: 100px auto 300px;
+    margin: 100px auto;
     text-align: center;
 }
     
@@ -187,6 +187,31 @@ input{
     font-size: 30px;
 }
 
+/* .content3{
+    height: auto;
+    text-align: center;
+} */
+
+.content2{
+    width:85%;
+    text-align: center;
+    margin: 20px auto 300px;
+    text-align: center;
+}
+
+.background2{
+    height: auto;
+}
+
+video {
+    width:250px;
+    margin: 10px 0px;
+}
+
+.middle{
+    text-align: center;
+}
+
 input{
     width:200px;
 }
@@ -233,6 +258,10 @@ input{
     line-height: 35px;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
+}
+
+.middle{
+    text-align: center;
 }
 
 input{
